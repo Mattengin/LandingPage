@@ -4,6 +4,8 @@
 //     $(this).css('background-position', moveX + 'px ' + moveY + 'px ')
 // })
 
+
+
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
         $('nav').addClass('black');
@@ -11,3 +13,8 @@ $(window).on('scroll', function(){
         $('nav').removeClass('black');
     }
 })
+
+function WIP(){
+    alert("Blog post are not ready to be seen!")
+}
+
