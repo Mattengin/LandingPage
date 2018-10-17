@@ -12,8 +12,15 @@ $(window).on('scroll', function(){
     } else{
         $('nav').removeClass('black');
     }
+
+    
 })
 
+$(".social").hover(
+    function(){this.addClass('jello')}
+)
+
+//Alerts
 function WIP(){
     alert("Blog post are not ready to be seen!")
 }

@@ -152,8 +152,13 @@ section.sec1{
 
 
 
+.social :nth-child(1):hover{
+    opacity: 0.5;
+}
 
-
+.social :nth-child(2):hover{
+    opacity: 0.5;
+}
 
 footer{
    left: 0;
